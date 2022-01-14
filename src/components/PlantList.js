@@ -16,7 +16,7 @@ export default class PlantList extends Component {
       <main className="plant-list">
         {this.state.plants.map((plant) => (
           <div className="plant-card" key={plant.id} data-testid="plant-card">
-            <img className="plant-image" src={plant.img} alt={plant.name} />
+            <img className="plant-image" width="280" src={plant.img} alt={plant.name} />
             <div className="plant-details">
               <h2 className="plant-name">{plant.name}</h2>
               <p className="plant-scientific-name">{plant.scientificName}</p>

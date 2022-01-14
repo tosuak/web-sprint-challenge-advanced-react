@@ -7,8 +7,7 @@ const plantsData = [
     scientificName: "Peperomia caperata rosso",
     difficulty: "easy",
     light: "direct",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/6__ZZ-1_800x.png?v=1587411408",
+    img:"./plants/plant1.jpg",
     sizes: ["small"],
     watering: 2,
     description:
@@ -21,8 +20,7 @@ const plantsData = [
     scientificName: "Senecio peregrinus",
     difficulty: "easy",
     light: "direct",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/SUCCULENT_DOLPHINS-1_800x.png?v=1587613674",
+    img:"./plants/plant2.jpg",
     sizes: ["small"],
     watering: 2,
     description:
@@ -35,8 +33,7 @@ const plantsData = [
     scientificName: "Sansevieria zeylanica",
     difficulty: "easy",
     light: "direct",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/6__SANSEVIERIA_ZEYLANICA-1_800x.png?v=1587146468",
+    img:"./plants/plant3.jpg",
     sizes: ["small", "medium"],
     watering: 2,
     description:
@@ -49,8 +46,7 @@ const plantsData = [
     scientificName: "Zamioculcas zamiifolia",
     difficulty: "easy",
     light: "direct",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/6__ZZ-1_800x.png?v=1587411408",
+    img:"./plants/plant4.jpg",
     sizes: ["small", "medium"],
     watering: 2,
     description:
@@ -63,8 +59,7 @@ const plantsData = [
     scientificName: "Crassula ovata",
     difficulty: "easy",
     light: "direct",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/SUCCULENT_JADE-1_800x.png?v=1587153094",
+    img:"./plants/plant5.jpg",
     sizes: ["small"],
     watering: 2,
     description:
@@ -77,8 +72,7 @@ const plantsData = [
     scientificName: "Davallia fejeensis",
     difficulty: "medium",
     light: "indirect",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/6__ZZ-1_800x.png?v=1587411408",
+    img:"./plants/plant6.jpg",
     sizes: ["small"],
     watering: 4,
     description:
@@ -91,8 +85,7 @@ const plantsData = [
     scientificName: "Spathiphyllum wallisii",
     difficulty: "medium",
     light: "low",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/6__SPATH_PEACELILY-1_800x.png?v=1587653193",
+    img:"./plants/plant7.jpg",
     sizes: ["small", "medium"],
     watering: 6,
     description:
@@ -105,8 +98,7 @@ const plantsData = [
     scientificName: "Platycerium bifurcatum",
     difficulty: "medium",
     light: "indirect",
-    img:
-      "https://cdn.shopify.com/s/files/1/2781/9558/products/SUCCULENT_JADE-1_800x.png?v=1587153094",
+    img:"./plants/plant8.jpg",
     sizes: ["small"],
     watering: 2,
     description:
