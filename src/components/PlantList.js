@@ -20,17 +20,7 @@ componentDidMount () {
   })
 }
 
-componentDidUpdate (prevProps, prevState) {
-  if(this.state.plants !== prevState.plants){
-    axios.get('http://localhost:3333/plants')
-    .then(resp => {
-      this.setState({
-        ...this.state,
-        plants: resp.data
-      })
-    })
-  }
-}
+
 
   // when the component mounts:
   //   - fetch data from the server endpoint - http://localhost:3333/plants

@@ -117,9 +117,13 @@ test("displays plants in cart", () => {
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers below.
 
 1. What are the main differences between a class-based and a functional component?
+      Class Components do not have hooks, class components has Constructor and render.
 
 2. When does a componentWillMount function be called? What about a componentDidUpdate?
+      componentWillMount function is in the mounting phase and it will be called as soon as the render method is called the first time. The componentDidUpdate function is in the updating phase and it will be called immediately after an update occurs.
 
 3. Define stateful logic.
+    Stateful logic is the logic that is in the component not the display.
 
 4. What are the three step of creating a successful test? What is done in each phase? 
+    The three steps are arrange where we set ourself for success, act where we specify what we expect to see in the browser, and assert where we assert that something has been rendered. 
